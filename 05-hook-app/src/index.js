@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { TodoApp } from './components/08-useReducer/TodoApp';
+import { MainApp } from './components/09-useContext/MainApp';
+// import { TodoApp } from './components/08-useReducer/TodoApp';
 // import { TodoApp } from './components/08-useReducer/TodoApp';
 // import { CallBackHooks } from './components/06-memos/CallBackHooks';
 // import { Padre } from './components/07-tarea-memo/07-tarea-memo/Padre';
@@ -21,6 +22,6 @@ import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <TodoApp />
+    <MainApp />
 );
 

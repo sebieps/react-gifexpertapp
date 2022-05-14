@@ -4,6 +4,7 @@ import { todoReducer } from "./todoReducer";
 
 import "./styles.css";
 import { TodoList } from "./TodoList";
+import { TodoAdd } from "./TodoAdd";
 
 const init = () => {
   return JSON.parse(localStorage.getItem("todos")) || [];
@@ -57,7 +58,7 @@ export const TodoApp = () => {
           />
         </div>
         <div className="col-5">
-         <TodoApp 
+         <TodoAdd
          handleAddTodo={ handleAddTodo }
          />
         </div>
